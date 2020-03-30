@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'PFDinDisplayPro';
+  src: url('../fonts/PFDinDisplayPro-Regular.eot');
+  src: url('../fonts/PFDinDisplayPro-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/PFDinDisplayPro-Regular.svg#PFDinDisplayPro-Regular') format('svg'),
+       url('../fonts/PFDinDisplayPro-Regular.ttf') format('truetype'),
+       url('../fonts/PFDinDisplayPro-Regular.woff') format('woff'),
+       url('../fonts/PFDinDisplayPro-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PFDinDisplayPro';
+  src: url('../fonts/PFDinDisplayPro-Medium.eot');
+  src: url('../fonts/PFDinDisplayPro-Medium.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/PFDinDisplayPro-Medium.svg#PFDinDisplayPro-Medium') format('svg'),
+       url('../fonts/PFDinDisplayPro-Medium.ttf') format('truetype'),
+       url('../fonts/PFDinDisplayPro-Medium.woff') format('woff'),
+       url('../fonts/PFDinDisplayPro-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PFDinDisplayPro';
+  src: url('../fonts/PFDinDisplayPro-Light.eot');
+  src: url('../fonts/PFDinDisplayPro-Light.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/PFDinDisplayPro-Light.svg#PFDinDisplayPro-Light') format('svg'),
+       url('../fonts/PFDinDisplayPro-Light.ttf') format('truetype'),
+       url('../fonts/PFDinDisplayPro-Light.woff') format('woff'),
+       url('../fonts/PFDinDisplayPro-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PFDinDisplayPro';
+  src: url('../fonts/PFDinDisplayPro-Bold.eot');
+  src: url('../fonts/PFDinDisplayPro-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/PFDinDisplayPro-Bold.svg#PFDinDisplayPro-Bold') format('svg'),
+       url('../fonts/PFDinDisplayPro-Bold.ttf') format('truetype'),
+       url('../fonts/PFDinDisplayPro-Bold.woff') format('woff'),
+       url('../fonts/PFDinDisplayPro-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PFDinDisplayPro';
+  src: url('../fonts/PFDinDisplayPro-Black.eot');
+  src: url('../fonts/PFDinDisplayPro-Black.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/PFDinDisplayPro-Black.svg#PFDinDisplayPro-Black') format('svg'),
+       url('../fonts/PFDinDisplayPro-Black.ttf') format('truetype'),
+       url('../fonts/PFDinDisplayPro-Black.woff') format('woff'),
+       url('../fonts/PFDinDisplayPro-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PFDinDisplayPro';
+  src: url('../fonts/PFDinDisplayPro-Thin.eot');
+  src: url('../fonts/PFDinDisplayPro-Thin.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/PFDinDisplayPro-Thin.svg#PFDinDisplayPro-Thin') format('svg'),
+       url('../fonts/PFDinDisplayPro-Thin.ttf') format('truetype'),
+       url('../fonts/PFDinDisplayPro-Thin.woff') format('woff'),
+       url('../fonts/PFDinDisplayPro-Thin.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+}
