@@ -160,6 +160,32 @@ body {
 	max-width: 100%;
 	margin-left: auto;
 }
+.main-face .main-prim {
+	margin-top: 20px;
+	font-size: 16px;
+}
+.main-face .main-prim span {
+	font-size: 14px;
+}
+.main-face .main-vars {
+	position: absolute;
+	top: 0;
+	right: 30px;
+	white-space: nowrap;
+	text-align: left;
+	color: #ffffff;
+}
+.main-face .main-var {
+	font-size: 25px;
+	font-weight: 700;
+	margin-bottom: 40px;
+}
+.main-face .main-var span {
+	font-size: 20px;
+}
+.main-face .main-var:last-child {
+	margin-bottom: 0;
+}
 
 .main-2-ekr {
 	position: relative;
@@ -1975,6 +2001,16 @@ body {
 	}
 	.main-face .image img {
 		max-height: 300px;
+	}
+	.main-face .main-prim {
+		margin-top: 10px;
+		font-size: 12px;
+	}
+	.main-face .main-prim span {
+		font-size: 10px;
+	}
+	.main-face .main-vars {
+		display: none;
 	}
 
 	.main-2-ekr .wrap {
