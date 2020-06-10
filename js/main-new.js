@@ -13,6 +13,19 @@ $(document).ready(function(){
 		$('.b-filter-wrap').removeClass('active');
 	});
 
+	$(document).on('click','.b-filters li',function(){
+		var el = $(this).attr('data-filter');
+		
+		if ( !$(this).hasClass('active') ){
+			$(this).parents('.b-filters').find('li').removeClass('active');
+			$(this).parents('.filter-wrap').find('.b-filter-item').removeClass('active');
+			$(this).addClass('active');
+			$(el).addClass('active');
+			$(this).parents('.b-filter-wrap').find('.b-filter-text span').text($(this).text());
+		}
+		$('.b-filter-wrap').removeClass('active');
+	});
+
 	$(document).on('click','.b-filter-text',function(){
 		$(this).parents('.b-filter-wrap').toggleClass('active');
 	});
