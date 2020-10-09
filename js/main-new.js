@@ -53,6 +53,21 @@ $(document).ready(function(){
 		}
 	});
 
+	$('.b-share input').on('focus',function(){
+		$(this).select();
+		document.execCommand('copy');
+	});
+
+	$(document).on('click','.b-share .btn',function(){
+		$btn = $(this);
+		$(this).parent('.b-share').find('input').select();
+		document.execCommand('copy');
+		$(this).find('span').text('Готово!');
+		setTimeout(function(){
+			$btn.find('span').text('Скопировать');
+		},1000);
+	});
+
 	function backSize(){
 		if ( $(window).width() > 1230 ){
 			var bw = 730 + ($(window).width() - 1230)/2;
