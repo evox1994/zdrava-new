@@ -78,8 +78,19 @@ $(document).ready(function(){
 	}
 	backSize();
 
+	function ScrollActiveEl(){
+		if ($('.b-doctors-nav').find('li.active').length){
+			var start_point = $('.b-doctors-nav').find('li.active').offset().left + $('.b-doctors-nav').find('li.active').outerWidth()/2;
+			if (start_point > $(window).outerWidth()/2){
+				$('.b-doctors-nav').animate({scrollLeft: start_point - $('.b-doctors-nav').offset().left + $('.b-doctors-nav').scrollLeft() - $('.b-doctors-nav').outerWidth()/2},300);
+			}
+		}
+	}
+	ScrollActiveEl();
+
 	$(window).resize(function(){
 		backSize();
+		ScrollActiveEl();
 	});
 
 });
