@@ -2257,10 +2257,14 @@ b {
 .b-news-more .other ul > li {
 	font-size: 18px;
 	line-height: 1.5;
+	margin-top: 10px;
 }
 .b-news-more .other ul > li a {
 	color: #323232;
-	border-bottom: 1px solid #323232;
+	border-bottom: 1px solid #3c94aa;
+}
+.b-news-more .other ul > li a:hover {
+	border-color: #ff4654;
 }
 .b-news-more .share-wrap {
 	order: 1;
