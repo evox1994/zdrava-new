@@ -5,6 +5,9 @@ body {
 b {
 	font-weight: 700;
 }
+.container {
+	width: 100%;
+}
 
 .b-title {
 	display: block;
@@ -2675,6 +2678,48 @@ b {
 	margin: 0 auto;
 }
 
+.b-policy {
+	margin-top: 50px;
+}
+.b-policy .item {
+	margin-top: 30px;
+	text-align: left;
+}
+.b-policy .item .title {
+	display: block;
+	font-size: 30px;
+	font-weight: 700;
+}
+.b-policy .item .b-text {
+	margin-top: 20px;
+}
+
+.b-thanks {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-image: url('../i/vinirs-fon.jpg');
+	color: #ffffff;
+	text-align: center;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+	padding: 70px 0;
+	height: 100vh;
+}
+.b-thanks .text {
+	font-size: 20px;
+	margin-top: 30px;
+}
+.b-thanks .main-btn {
+	margin: 40px auto 0;
+	max-width: 360px;
+}
+
 
 
 @media screen and (max-width: 1280px){
@@ -4118,6 +4163,31 @@ b {
 		margin-top: 20px;
 		margin-right: 20px;
 		width: calc(100%/3 - 40px/3);
+	}
+
+	.b-policy {
+		margin-top: 30px;
+	}
+	.b-policy .item {
+		margin-top: 20px;
+	}
+	.b-policy .item .title {
+		font-size: 18px;
+	}
+	.b-policy .item .b-text {
+		margin-top: 15px;
+	}
+
+	.b-thanks {
+		padding: 40px 0;
+	}
+	.b-thanks .text {
+		font-size: 14px;
+		margin-top: 15px;
+	}
+	.b-thanks .main-btn {
+		margin: 20px auto 0;
+		max-width: 260px;
 	}
 }
 @media screen and (max-width: 560px){
