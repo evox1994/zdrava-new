@@ -1440,9 +1440,15 @@ b {
 	justify-content: space-between;
 	align-items: stretch;
 }
+.form-block.no-img .wrap {
+	display: block;
+}
 .form-block .wrap .content {
 	width: calc(50% - 15px);
 	padding: 80px 0;
+}
+.form-block.no-img .wrap .content {
+	width: 100%;
 }
 .form-block .wrap .b-form-wrap {
 	background-color: #ffffff;
@@ -1451,6 +1457,9 @@ b {
 	box-shadow: 0px 7px 27px 0px rgba(12, 33, 76, 0.13);
 	width: 100%;
 	max-width: 530px;
+}
+.form-block.no-img .wrap .b-form-wrap {
+	margin: 0 auto;
 }
 .form-block .wrap .b-form-wrap .title {
 	padding: 0 30px;
@@ -2561,6 +2570,109 @@ b {
 }
 .b-doctors > li .btns .more:hover {
 	border-color: transparent;
+}
+
+.b-doctor {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+.b-doctor .image {
+	position: relative;
+	width: calc(50% - 15px);
+}
+.b-doctor .image img {
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
+}
+.b-doctor .content {
+	text-align: left;
+	width: calc(50% - 15px);
+}
+.b-doctor .content .categories {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 10px;
+}
+.b-doctor .content .categories > li {
+	display: block;
+	padding: 11px 20px;
+	border: 1px solid #d6dfe1;
+	border-radius: 100px;
+	font-size: 16px;
+	color: #3c94aa;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.b-doctor .content .categories > li:last-child {
+	margin-right: 0;
+}
+.b-doctor .content .text {
+	margin-top: 40px;
+	font-size: 18px;
+	text-align: left;
+}
+.b-doctor .content .text ul > li {
+	position: relative;
+	padding-left: 20px;
+}
+.b-doctor .content .text ul > li:before {
+	content: '';
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background-color: #ff4654;
+	position: absolute;
+	left: 0;
+	top: 6px;
+}
+.b-doctor .content .main-btn {
+	margin-top: 50px;
+	max-width: 270px;
+}
+
+.b-video {
+	position: relative;
+	width: 100%;
+	margin: 50px auto 0;
+}
+.b-video iframe {
+	display: block;
+	width: 100%;
+	max-width: 760px;
+	height: 428px;
+	margin: 0 auto;
+}
+
+.b-serts {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+.b-serts > li {
+	width: calc(100%/3 - 20px);
+	margin-top: 30px;
+	margin-right: 30px;
+}
+.b-serts > li:nth-child(3n) {
+	margin-right: 0;
+}
+.b-serts > li img {
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
 }
 
 
@@ -3966,6 +4078,47 @@ b {
 	.b-doctors > li .btns .more {
 		font-size: 14px;
 	}
+
+	.b-doctor .image {
+		width: calc(50% - 10px);
+	}
+	.b-doctor .content {
+		width: calc(50% - 10px);
+	}
+	.b-doctor .content .categories > li {
+		font-size: 14px;
+		padding: 5px 15px;
+		margin-top: 10px;
+		margin-right: 10px;
+	}
+	.b-doctor .content .text {
+		margin-top: 20px;
+		font-size: 16px;
+	}
+	.b-doctor .content .text ul > li {
+		padding-left: 15px;
+	}
+	.b-doctor .content .main-btn {
+		margin-left: 0;
+		margin-top: 30px;
+	}
+
+	.b-video {
+		margin-top: 25px;
+	}
+	.b-video iframe {
+		max-width: 560px;
+		height: 315px;
+	}
+
+	.b-serts {
+		margin-top: 10px;
+	}
+	.b-serts > li {
+		margin-top: 20px;
+		margin-right: 20px;
+		width: calc(100%/3 - 40px/3);
+	}
 }
 @media screen and (max-width: 560px){
 	.main-face .wrap {
@@ -4103,6 +4256,9 @@ b {
 	.form-block .wrap .content {
 		width: 100%;
 		padding-top: 0;
+	}
+	.form-block.no-img .wrap .content {
+		padding-top: 30px;
 	}
 	.form-block .wrap .b-form-wrap {
 		margin: 0 auto;
@@ -4301,6 +4457,45 @@ b {
 	.b-doctors > li:nth-child(3n) {
 		margin-right: auto;
 	}
+
+	.b-doctor {
+		display: block;
+	}
+	.b-doctor .image {
+		width: 100%;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+	.b-doctor .content {
+		width: 100%;
+		text-align: center;
+		margin-top: 20px;
+	}
+	.b-doctor .content .categories {
+		justify-content: center;
+	}
+	.b-doctor .content .categories > li {
+		margin: 10px 5px 0;
+	}
+	.b-doctor .content .categories > li:last-child {
+		margin-right: 5px;
+	}
+	.b-doctor .content .main-btn {
+		margin: 30px auto 0;
+	}
+
+	.b-video iframe {
+		max-width: 400px;
+		height: 225px;
+	}
+
+	.b-serts {
+		justify-content: space-between;
+	}
+	.b-serts > li {
+		width: calc(50% - 10px);
+		margin-right: 0;
+	}
 }
 @media screen and (max-width: 390px){
 	.main-face .wrap {
@@ -4369,5 +4564,11 @@ b {
 	}
 	.b-imp-price-info > li:last-child {
 		margin-bottom: 0;
+	}
+
+
+	.b-video iframe {
+		max-width: 356px;
+		height: 200px;
 	}
 }
