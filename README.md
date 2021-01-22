@@ -19,4 +19,5 @@
 <a href="https://evox1994.github.io/zdrava-new/contacts">Контакты</a><br>
 <a href="https://evox1994.github.io/zdrava-new/thanks">Страница благодарности</a><br>
 <a href="https://evox1994.github.io/zdrava-new/error">Ошибка 404</a><br>
-<a href="https://evox1994.github.io/zdrava-new/policy">Политика конфиденциальности</a>
+<a href="https://evox1994.github.io/zdrava-new/policy">Политика конфиденциальности</a><br>
+<a href="https://evox1994.github.io/zdrava-new/legal-info">Юридическая информация</a>
