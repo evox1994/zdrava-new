@@ -2614,9 +2614,17 @@ b {
 	color: #3c94aa;
 	margin-top: 20px;
 	margin-right: 20px;
+	cursor: pointer;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
 }
 .b-doctor .content .categories > li:last-child {
 	margin-right: 0;
+}
+.b-doctor .content .categories > li:hover {
+	border-color: #3c94aa;
 }
 .b-doctor .content .text {
 	margin-top: 40px;
@@ -4549,6 +4557,10 @@ b {
 	}
 	.b-doctor .content .categories > li:last-child {
 		margin-right: 5px;
+	}
+	.b-doctor .content .text {
+		margin: 20px auto 0;
+		max-width: 270px;
 	}
 	.b-doctor .content .main-btn {
 		margin: 30px auto 0;
